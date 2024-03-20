@@ -56,7 +56,7 @@
             answer1.BackColor = SystemColors.AppWorkspace;
             answer1.Location = new Point(31, 30);
             answer1.Name = "answer1";
-            answer1.Size = new Size(150, 50);
+            answer1.Size = new Size(151, 51);
             answer1.TabIndex = 1;
             // 
             // answer2
@@ -64,7 +64,7 @@
             answer2.BackColor = SystemColors.AppWorkspace;
             answer2.Location = new Point(31, 116);
             answer2.Name = "answer2";
-            answer2.Size = new Size(150, 50);
+            answer2.Size = new Size(151, 51);
             answer2.TabIndex = 2;
             // 
             // answer4
@@ -72,7 +72,7 @@
             answer4.BackColor = SystemColors.AppWorkspace;
             answer4.Location = new Point(31, 288);
             answer4.Name = "answer4";
-            answer4.Size = new Size(150, 50);
+            answer4.Size = new Size(151, 51);
             answer4.TabIndex = 4;
             // 
             // answer3
@@ -80,7 +80,7 @@
             answer3.BackColor = SystemColors.AppWorkspace;
             answer3.Location = new Point(31, 202);
             answer3.Name = "answer3";
-            answer3.Size = new Size(150, 50);
+            answer3.Size = new Size(151, 51);
             answer3.TabIndex = 3;
             // 
             // btn2
