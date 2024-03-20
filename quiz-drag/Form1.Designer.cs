@@ -43,7 +43,7 @@
             // 
             btn1.Location = new Point(291, 38);
             btn1.Name = "btn1";
-            btn1.Size = new Size(145, 41);
+            btn1.Size = new Size(150, 50);
             btn1.TabIndex = 0;
             btn1.Text = "btn1";
             btn1.UseVisualStyleBackColor = true;
@@ -56,7 +56,7 @@
             answer1.BackColor = SystemColors.AppWorkspace;
             answer1.Location = new Point(31, 30);
             answer1.Name = "answer1";
-            answer1.Size = new Size(180, 55);
+            answer1.Size = new Size(150, 50);
             answer1.TabIndex = 1;
             // 
             // answer2
@@ -64,7 +64,7 @@
             answer2.BackColor = SystemColors.AppWorkspace;
             answer2.Location = new Point(31, 116);
             answer2.Name = "answer2";
-            answer2.Size = new Size(180, 55);
+            answer2.Size = new Size(150, 50);
             answer2.TabIndex = 2;
             // 
             // answer4
@@ -72,7 +72,7 @@
             answer4.BackColor = SystemColors.AppWorkspace;
             answer4.Location = new Point(31, 288);
             answer4.Name = "answer4";
-            answer4.Size = new Size(180, 55);
+            answer4.Size = new Size(150, 50);
             answer4.TabIndex = 4;
             // 
             // answer3
@@ -80,14 +80,14 @@
             answer3.BackColor = SystemColors.AppWorkspace;
             answer3.Location = new Point(31, 202);
             answer3.Name = "answer3";
-            answer3.Size = new Size(180, 55);
+            answer3.Size = new Size(150, 50);
             answer3.TabIndex = 3;
             // 
             // btn2
             // 
             btn2.Location = new Point(291, 124);
             btn2.Name = "btn2";
-            btn2.Size = new Size(145, 41);
+            btn2.Size = new Size(150, 50);
             btn2.TabIndex = 5;
             btn2.Text = "btn2";
             btn2.UseVisualStyleBackColor = true;
@@ -99,7 +99,7 @@
             // 
             btn4.Location = new Point(291, 296);
             btn4.Name = "btn4";
-            btn4.Size = new Size(145, 41);
+            btn4.Size = new Size(150, 50);
             btn4.TabIndex = 7;
             btn4.Text = "btn4";
             btn4.UseVisualStyleBackColor = true;
@@ -111,7 +111,7 @@
             // 
             btn3.Location = new Point(291, 210);
             btn3.Name = "btn3";
-            btn3.Size = new Size(145, 41);
+            btn3.Size = new Size(150, 50);
             btn3.TabIndex = 6;
             btn3.Text = "btn3";
             btn3.UseVisualStyleBackColor = true;
