@@ -1,0 +1,19 @@
+{
+    "type": "single",
+    "text": "gyurcsány egy geci",
+    "answers": [
+        {
+            "text": "text1",
+            "correct": false
+        }, {
+            "text": "text2",
+            "correct": false
+        }, {
+            "text": "text3",
+            "correct": true
+        }, {
+            "text": "text4",
+            "correct": false
+        }
+    ]
+}
