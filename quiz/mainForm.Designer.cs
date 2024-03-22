@@ -85,6 +85,7 @@
             Controls.Add(label1);
             Name = "mainForm";
             Text = "tortenelem-quiz";
+            Load += mainForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

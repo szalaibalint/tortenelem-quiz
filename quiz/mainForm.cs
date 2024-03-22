@@ -18,5 +18,10 @@ namespace quiz
         {
 
         }
+
+        private void mainForm_Load(object sender, EventArgs e)
+        {
+            DataManager.LoadData();
+        }
     }
 }
