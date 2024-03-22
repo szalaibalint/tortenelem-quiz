@@ -1,0 +1,19 @@
+{
+    "type": "single",
+    "text": "Ki mondta: Borítsunk fátylat a múltra?",
+    "answers": [
+        {
+            "text": "Kossuth Lajos",
+            "correct": true
+        },{
+            "text": "Jókai Mór",
+            "correct": false
+        },{
+            "text": "Izajás könyve 40:3",
+            "correct": false
+        },{
+            "text": "Julius Caesar",
+            "correct": false
+        }
+    ]
+}

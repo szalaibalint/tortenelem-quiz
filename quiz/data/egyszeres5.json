@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Mi volt 1346-ban Krakkóban?",
+	"answers":[
+	{
+		"text": "Nép felkelés",
+		"correct": false
+	},{
+		"text": "Tűzvész",
+		"correct": false
+	},{
+		"text": "Újjá építették a Szent György-templomot",
+		"correct": true
+	},{
+		"text": "Választások",
+		"correct": false
+	}
+
+
+	]
+}

@@ -30,9 +30,7 @@
         {
             label1 = new Label();
             questionsTab = new TabControl();
-            tabPage1 = new TabPage();
-            tabPage2 = new TabPage();
-            questionsTab.SuspendLayout();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -46,45 +44,33 @@
             // 
             // questionsTab
             // 
-            questionsTab.Controls.Add(tabPage1);
-            questionsTab.Controls.Add(tabPage2);
             questionsTab.Location = new Point(23, 23);
             questionsTab.Name = "questionsTab";
             questionsTab.SelectedIndex = 0;
             questionsTab.Size = new Size(580, 360);
             questionsTab.TabIndex = 1;
             // 
-            // tabPage1
+            // button1
             // 
-            tabPage1.Location = new Point(4, 24);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(572, 332);
-            tabPage1.TabIndex = 0;
-            tabPage1.Text = "tabPage1";
-            tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            tabPage2.Location = new Point(4, 24);
-            tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(192, 72);
-            tabPage2.TabIndex = 1;
-            tabPage2.Text = "tabPage2";
-            tabPage2.UseVisualStyleBackColor = true;
+            button1.Location = new Point(524, 389);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 2;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Quiz
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(questionsTab);
             Controls.Add(label1);
             Name = "Quiz";
             Text = "Quiz";
             Load += Quiz_Load;
-            questionsTab.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -93,7 +79,6 @@
 
         private Label label1;
         private TabControl questionsTab;
-        private TabPage tabPage1;
-        private TabPage tabPage2;
+        private Button button1;
     }
 }

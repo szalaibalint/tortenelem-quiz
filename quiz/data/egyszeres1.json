@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Mi köze volt a zólyomi várhoz Balassi Bálintnak?",
+	"answers":[
+	{
+		"text": "Díszpolgár",
+		"correct": false
+	},{
+		"text": "Vár főkapitánya",
+		"correct": true
+	},{
+		"text": "Politikus volt",
+		"correct": false
+	},{
+		"text": "Ott halt meg",
+		"correct": false
+	}
+
+
+	]
+}

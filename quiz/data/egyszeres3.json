@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Mi köze volt az augsburgi Fuggereknek Besztercebányához?",
+	"answers":[
+	{
+		"text": "",
+		"correct": false
+	},{
+		"text": "Ők voltak hatalmon a 16.században",
+		"correct": false
+	},{
+		"text": "1546-ig bányakat műveltek",
+		"correct": true
+	},{
+		"text": "Fosztogattak",
+		"correct": false
+	}
+
+
+	]
+}
