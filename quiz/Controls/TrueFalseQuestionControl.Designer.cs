@@ -35,6 +35,7 @@
             // 
             // questionTb
             // 
+            questionTb.BackColor = Color.Tan;
             questionTb.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 238);
             questionTb.Location = new Point(3, 3);
             questionTb.Multiline = true;
@@ -46,34 +47,38 @@
             // 
             // falseButton
             // 
+            falseButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             falseButton.Appearance = Appearance.Button;
-            falseButton.AutoSize = true;
+            falseButton.FlatStyle = FlatStyle.Flat;
             falseButton.Font = new Font("Segoe UI", 18F);
-            falseButton.Location = new Point(198, 237);
+            falseButton.Location = new Point(75, 222);
             falseButton.Name = "falseButton";
-            falseButton.Size = new Size(90, 42);
+            falseButton.Size = new Size(130, 70);
             falseButton.TabIndex = 8;
-            falseButton.TabStop = true;
             falseButton.Text = "Hamis";
+            falseButton.TextAlign = ContentAlignment.MiddleCenter;
             falseButton.UseVisualStyleBackColor = true;
             // 
             // trueButton
             // 
+            trueButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             trueButton.Appearance = Appearance.Button;
-            trueButton.AutoSize = true;
+            trueButton.FlatStyle = FlatStyle.Flat;
             trueButton.Font = new Font("Segoe UI", 18F);
-            trueButton.Location = new Point(294, 237);
+            trueButton.Location = new Point(354, 222);
             trueButton.Name = "trueButton";
-            trueButton.Size = new Size(67, 42);
+            trueButton.Size = new Size(130, 70);
             trueButton.TabIndex = 9;
-            trueButton.TabStop = true;
             trueButton.Text = "Igaz";
+            trueButton.TextAlign = ContentAlignment.MiddleCenter;
             trueButton.UseVisualStyleBackColor = true;
+            trueButton.CheckedChanged += trueButton_CheckedChanged;
             // 
             // TrueFalseQuestionControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.PapayaWhip;
             Controls.Add(trueButton);
             Controls.Add(falseButton);
             Controls.Add(questionTb);

@@ -25,5 +25,10 @@ namespace quiz.Controls
         {
             return (question.IsCorrect && trueButton.Checked) || (!question.IsCorrect && falseButton.Checked);
         }
+
+        private void trueButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -25,13 +25,13 @@ namespace quiz
 
         private void Quiz_Load(object sender, EventArgs e)
         {
-            
+
 
             questionsTab.Appearance = TabAppearance.FlatButtons;
             questionsTab.ItemSize = new Size(0, 1);
             questionsTab.SizeMode = TabSizeMode.Fixed;
-            
-            
+
+
 
             foreach (Question q in DataManager.Questions)
             {
@@ -42,16 +42,16 @@ namespace quiz
                     questionsTab.TabPages.Add(tab);
                     continue;
                 }
-                if(q is DateQuestion)
+                if (q is DateQuestion)
                 {
                     tab.Controls.Add(new DateQuestionControl(q as DateQuestion));
-                    questionsTab.TabPages.Add(tab); 
+                    questionsTab.TabPages.Add(tab);
                     continue;
                 }
             }
             Random rnd = new Random();
             int rndNumber;
-            for (int i = 0; i < mainForm.questionCount; i++) 
+            for (int i = 0; i < mainForm.questionCount; i++)
             {
                 do
                 {
@@ -65,7 +65,7 @@ namespace quiz
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if ((questionsTab.TabPages[questionsTab.SelectedIndex].Controls[0] as IQuestionControl).IsCorrect()) 
+            if ((questionsTab.TabPages[questionsTab.SelectedIndex].Controls[0] as IQuestionControl).IsCorrect())
             {
                 points++;
             }
@@ -81,7 +81,10 @@ namespace quiz
                 questionsTab.Visible = false;
                 button1.Visible = false;
             }
-            pointsLbl.Text = points.ToString();
+             label1.Text = $"Pontok: {points}";  
+            
         }
+
+       
     }
 }

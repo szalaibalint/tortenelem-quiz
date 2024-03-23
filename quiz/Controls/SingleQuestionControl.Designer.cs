@@ -37,51 +37,68 @@
             // 
             // answer1Rb
             // 
-            answer1Rb.AutoSize = true;
-            answer1Rb.Location = new Point(34, 213);
+            answer1Rb.Appearance = Appearance.Button;
+            answer1Rb.BackColor = Color.BurlyWood;
+            answer1Rb.FlatAppearance.BorderColor = Color.Black;
+            answer1Rb.FlatStyle = FlatStyle.Flat;
+            answer1Rb.Location = new Point(45, 202);
             answer1Rb.Name = "answer1Rb";
-            answer1Rb.Size = new Size(68, 19);
+            answer1Rb.Size = new Size(190, 48);
             answer1Rb.TabIndex = 1;
             answer1Rb.TabStop = true;
             answer1Rb.Text = "answer1";
-            answer1Rb.UseVisualStyleBackColor = true;
+            answer1Rb.TextAlign = ContentAlignment.MiddleCenter;
+            answer1Rb.UseVisualStyleBackColor = false;
             // 
             // answer2Rb
             // 
-            answer2Rb.AutoSize = true;
-            answer2Rb.Location = new Point(34, 288);
+            answer2Rb.Appearance = Appearance.Button;
+            answer2Rb.BackColor = Color.BurlyWood;
+            answer2Rb.FlatAppearance.BorderColor = Color.Black;
+            answer2Rb.FlatStyle = FlatStyle.Flat;
+            answer2Rb.Location = new Point(45, 277);
             answer2Rb.Name = "answer2Rb";
-            answer2Rb.Size = new Size(68, 19);
+            answer2Rb.Size = new Size(190, 48);
             answer2Rb.TabIndex = 2;
             answer2Rb.TabStop = true;
             answer2Rb.Text = "answer2";
-            answer2Rb.UseVisualStyleBackColor = true;
+            answer2Rb.TextAlign = ContentAlignment.MiddleCenter;
+            answer2Rb.UseVisualStyleBackColor = false;
             answer2Rb.CheckedChanged += radioButton2_CheckedChanged;
             // 
             // answer4Rb
             // 
-            answer4Rb.AutoSize = true;
-            answer4Rb.Location = new Point(318, 288);
+            answer4Rb.Appearance = Appearance.Button;
+            answer4Rb.BackColor = Color.BurlyWood;
+            answer4Rb.FlatAppearance.BorderColor = Color.Black;
+            answer4Rb.FlatStyle = FlatStyle.Flat;
+            answer4Rb.Location = new Point(329, 277);
             answer4Rb.Name = "answer4Rb";
-            answer4Rb.Size = new Size(68, 19);
+            answer4Rb.Size = new Size(190, 48);
             answer4Rb.TabIndex = 4;
             answer4Rb.TabStop = true;
             answer4Rb.Text = "answer4";
-            answer4Rb.UseVisualStyleBackColor = true;
+            answer4Rb.TextAlign = ContentAlignment.MiddleCenter;
+            answer4Rb.UseVisualStyleBackColor = false;
             // 
             // answer3Rb
             // 
-            answer3Rb.AutoSize = true;
-            answer3Rb.Location = new Point(318, 213);
+            answer3Rb.Appearance = Appearance.Button;
+            answer3Rb.BackColor = Color.BurlyWood;
+            answer3Rb.FlatAppearance.BorderColor = Color.Black;
+            answer3Rb.FlatStyle = FlatStyle.Flat;
+            answer3Rb.Location = new Point(329, 202);
             answer3Rb.Name = "answer3Rb";
-            answer3Rb.Size = new Size(68, 19);
+            answer3Rb.Size = new Size(190, 48);
             answer3Rb.TabIndex = 3;
             answer3Rb.TabStop = true;
             answer3Rb.Text = "answer3";
-            answer3Rb.UseVisualStyleBackColor = true;
+            answer3Rb.TextAlign = ContentAlignment.MiddleCenter;
+            answer3Rb.UseVisualStyleBackColor = false;
             // 
             // questionTb
             // 
+            questionTb.BackColor = Color.Tan;
             questionTb.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 238);
             questionTb.Location = new Point(3, 3);
             questionTb.Multiline = true;
@@ -95,6 +112,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.PapayaWhip;
             Controls.Add(questionTb);
             Controls.Add(answer4Rb);
             Controls.Add(answer3Rb);

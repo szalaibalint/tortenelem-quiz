@@ -35,6 +35,7 @@
             // 
             // questionTb
             // 
+            questionTb.BackColor = Color.Tan;
             questionTb.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 238);
             questionTb.Location = new Point(3, 3);
             questionTb.Multiline = true;
@@ -46,18 +47,21 @@
             // 
             // dateInput
             // 
+            dateInput.BackColor = Color.White;
+            dateInput.BorderStyle = BorderStyle.None;
             dateInput.Font = new Font("Segoe UI", 32.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
             dateInput.Location = new Point(197, 226);
             dateInput.Maximum = new decimal(new int[] { 2024, 0, 0, 0 });
             dateInput.Minimum = new decimal(new int[] { 10000, 0, 0, int.MinValue });
             dateInput.Name = "dateInput";
-            dateInput.Size = new Size(183, 65);
+            dateInput.Size = new Size(183, 61);
             dateInput.TabIndex = 7;
             // 
             // DateQuestionControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.PapayaWhip;
             Controls.Add(dateInput);
             Controls.Add(questionTb);
             Name = "DateQuestionControl";
