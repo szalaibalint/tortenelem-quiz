@@ -11,8 +11,12 @@ using System.Windows.Forms;
 
 namespace quiz
 {
+
+
     public partial class Quiz : Form
     {
+        
+
         List<int> indexList = new List<int>();
 
         int currentIndex = 0;
@@ -25,8 +29,6 @@ namespace quiz
 
         private void Quiz_Load(object sender, EventArgs e)
         {
-
-
             questionsTab.Appearance = TabAppearance.FlatButtons;
             questionsTab.ItemSize = new Size(0, 1);
             questionsTab.SizeMode = TabSizeMode.Fixed;

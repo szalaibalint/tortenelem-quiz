@@ -34,6 +34,10 @@
             button1 = new Button();
             pointsLbl = new Label();
             panel1 = new Panel();
+            panel2 = new Panel();
+            panel3 = new Panel();
+            panel4 = new Panel();
+            panel5 = new Panel();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -92,12 +96,44 @@
             panel1.Size = new Size(191, 450);
             panel1.TabIndex = 4;
             // 
+            // panel2
+            // 
+            panel2.Location = new Point(22, 365);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(576, 10);
+            panel2.TabIndex = 5;
+            // 
+            // panel3
+            // 
+            panel3.Location = new Point(22, 23);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(576, 12);
+            panel3.TabIndex = 6;
+            // 
+            // panel4
+            // 
+            panel4.Location = new Point(22, 23);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(10, 352);
+            panel4.TabIndex = 6;
+            // 
+            // panel5
+            // 
+            panel5.Location = new Point(588, 23);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(10, 352);
+            panel5.TabIndex = 7;
+            // 
             // Quiz
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.PapayaWhip;
             ClientSize = new Size(800, 450);
+            Controls.Add(panel5);
+            Controls.Add(panel4);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(pointsLbl);
             Controls.Add(questionsTab);
@@ -118,5 +154,9 @@
         private Button button1;
         private Label pointsLbl;
         private Panel panel1;
+        private Panel panel2;
+        private Panel panel3;
+        private Panel panel4;
+        private Panel panel5;
     }
 }
