@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Melyik a kakukktojás?",
+	"answers":[
+	{
+		"text": "a branderburgi őrgróf",
+		"correct": false
+	},{
+		"text": "a cseh király",
+		"correct": true
+	},{
+		"text": "a kölni érsek",
+		"correct": false
+	},{
+		"text": "a trieri érsek",
+		"correct": false
+	}
+
+
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Melyik a kakukktojás?",
+	"answers":[
+	{
+		"text": "Bükk",
+		"correct": false
+	},{
+		"text": "Mátra",
+		"correct": false
+	},{
+		"text": "Tátra",
+		"correct": true
+	},{
+		"text": "Cserhát",
+		"correct": false
+	}
+
+
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Melyik a kakukktojás?",
+	"answers":[
+	{
+		"text": "Giuseppe Garibaldi",
+		"correct": false
+	},{
+		"text": "Ciano gróf",
+		"correct": false
+	},{
+		"text": "Francesco Crispi",
+		"correct": false
+	},{
+		"text": "Giovanni Giolitti",
+		"correct": true
+	}
+
+
+	]
+}

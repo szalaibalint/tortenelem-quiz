@@ -1,0 +1,41 @@
+{
+	"type": "single",
+	"text":"Melyik közel kétszáz évig uralkodó dinasztiát irtották ki a felfedezők?",
+	"answers":[
+	{
+		"text": "Cuitlahauc",
+		"correct": false
+	},{
+		"text": "II. Motenzcoma Xocayotzin",
+		"correct": false
+	},{
+		"text": "Ahuitzotl",
+		"correct": false
+	},{
+		"text": "Tizoc",
+		"correct": false
+	},{
+		"text": "Axajacatl",
+		"correct": false
+	},{
+		"text": "I. Mortenczkoma ilhuicamina",
+		"correct": false
+	},{
+		"text": "Itzoatl",
+		"correct": false
+	},{
+		"text": "Chimalpopoca",
+		"correct": false
+	},{
+		
+		"text": "Huitziiihuitl",
+		"correct": false
+	},{
+		"text": "Acamapichtli",
+		"correct": true
+	}
+	
+
+
+	]
+}

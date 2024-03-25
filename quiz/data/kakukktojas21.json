@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Melyik a kakukktojás?",
+	"answers":[
+	{
+		"text": "Árpád",
+		"correct": false
+	},{
+		"text": "Szabolcs",
+		"correct": true
+	},{
+		"text": "Kurszán",
+		"correct": false
+	},{
+		"text": "Ete",
+		"correct": false
+	}
+
+
+	]
+}

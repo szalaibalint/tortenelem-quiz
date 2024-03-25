@@ -11,12 +11,8 @@ using System.Windows.Forms;
 
 namespace quiz
 {
-
-
     public partial class Quiz : Form
     {
-        
-
         List<int> indexList = new List<int>();
 
         int currentIndex = 0;
@@ -29,12 +25,12 @@ namespace quiz
 
         private void Quiz_Load(object sender, EventArgs e)
         {
+
             questionsTab.Appearance = TabAppearance.FlatButtons;
             questionsTab.ItemSize = new Size(0, 1);
             questionsTab.SizeMode = TabSizeMode.Fixed;
 
-
-
+            questionsTab.TabPages.Clear();
             foreach (Question q in DataManager.Questions)
             {
                 TabPage tab = new TabPage();
@@ -67,10 +63,19 @@ namespace quiz
 
         private void button1_Click(object sender, EventArgs e)
         {
+            bool isCorrect;
             if ((questionsTab.TabPages[questionsTab.SelectedIndex].Controls[0] as IQuestionControl).IsCorrect())
             {
                 points++;
+                isCorrect = true;
             }
+            else
+            {
+                isCorrect = false;
+            }
+
+            answersList.Items.Add($"{currentIndex + 1} - {(isCorrect ? "Helyes" : "Helytelen")}");
+
             if (currentIndex < mainForm.questionCount - 1)
             {
                 currentIndex++;
@@ -78,15 +83,27 @@ namespace quiz
             }
             else
             {
-                // majd ide durrants befele a hogy mi tortenjen ha vége u know mert lusta vagyok type shit
+                answersList.Size = new Size(100, 390);
+                answersList.Location = new Point(61, 31);
+                endPoints.Text = $"Elért pontszám: {points}/{mainForm.questionCount}";
 
+                label1.Visible = false;
                 questionsTab.Visible = false;
                 button1.Visible = false;
+
+                restart.Visible = true;
+                endPoints.Visible = true;
             }
-             label1.Text = $"Pontok: {points}";  
-            
+            label1.Text = $"Pontok: {points}";
+
         }
 
-       
+        private void restart_Click(object sender, EventArgs e)
+        {
+            var form = new mainForm();
+            this.Hide();
+            form.ShowDialog();
+            this.Close();
+        }
     }
 }

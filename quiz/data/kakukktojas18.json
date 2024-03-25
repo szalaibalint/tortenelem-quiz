@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Melyik a kakukktojás?",
+	"answers":[
+	{
+		"text": "a grammatika",
+		"correct": false
+	},{
+		"text": "a dialektika",
+		"correct": false
+	},{
+		"text": "a dogmetika",
+		"correct": true
+	},{
+		"text": "az asztronomia",
+		"correct": false
+	}
+
+
+	]
+}

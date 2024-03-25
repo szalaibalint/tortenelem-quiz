@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Melyik a kakukktojás?",
+	"answers":[
+	{
+		"text": "Hitel",
+		"correct": false
+	},{
+		"text": "Stádium",
+		"correct": false
+	},{
+		"text": "Magyarország leírása",
+		"correct": true
+	},{
+		"text": "Ein Blick...",
+		"correct": false
+	}
+
+
+	]
+}

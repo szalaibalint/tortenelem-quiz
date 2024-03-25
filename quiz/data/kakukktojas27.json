@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Melyik a kakukktojás?",
+	"answers":[
+	{
+		"text": "Csallóköz",
+		"correct": true
+	},{
+		"text": "Hanság",
+		"correct": false
+	},{
+		"text": "Kemeneshát",
+		"correct": false
+	},{
+		"text": "Cserhát",
+		"correct": false
+	}
+
+
+	]
+}

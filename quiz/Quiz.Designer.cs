@@ -34,10 +34,13 @@
             button1 = new Button();
             pointsLbl = new Label();
             panel1 = new Panel();
+            answersList = new ListBox();
             panel2 = new Panel();
             panel3 = new Panel();
             panel4 = new Panel();
             panel5 = new Panel();
+            endPoints = new Label();
+            restart = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -88,6 +91,7 @@
             // panel1
             // 
             panel1.BackColor = Color.Tan;
+            panel1.Controls.Add(answersList);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(button1);
             panel1.Dock = DockStyle.Right;
@@ -95,6 +99,18 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(191, 450);
             panel1.TabIndex = 4;
+            // 
+            // answersList
+            // 
+            answersList.BackColor = Color.Tan;
+            answersList.BorderStyle = BorderStyle.None;
+            answersList.FormattingEnabled = true;
+            answersList.ItemHeight = 15;
+            answersList.Location = new Point(61, 61);
+            answersList.Name = "answersList";
+            answersList.SelectionMode = SelectionMode.None;
+            answersList.Size = new Size(100, 240);
+            answersList.TabIndex = 3;
             // 
             // panel2
             // 
@@ -124,6 +140,32 @@
             panel5.Size = new Size(10, 352);
             panel5.TabIndex = 7;
             // 
+            // endPoints
+            // 
+            endPoints.AutoSize = true;
+            endPoints.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            endPoints.Location = new Point(135, 168);
+            endPoints.Name = "endPoints";
+            endPoints.Size = new Size(348, 45);
+            endPoints.TabIndex = 8;
+            endPoints.Text = "Elért pontszám: 25/25";
+            endPoints.Visible = false;
+            // 
+            // restart
+            // 
+            restart.BackgroundImage = (Image)resources.GetObject("restart.BackgroundImage");
+            restart.BackgroundImageLayout = ImageLayout.Stretch;
+            restart.FlatAppearance.BorderSize = 0;
+            restart.FlatStyle = FlatStyle.Flat;
+            restart.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            restart.Location = new Point(278, 223);
+            restart.Name = "restart";
+            restart.Size = new Size(50, 50);
+            restart.TabIndex = 4;
+            restart.UseVisualStyleBackColor = true;
+            restart.Visible = false;
+            restart.Click += restart_Click;
+            // 
             // Quiz
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -137,6 +179,8 @@
             Controls.Add(panel1);
             Controls.Add(pointsLbl);
             Controls.Add(questionsTab);
+            Controls.Add(endPoints);
+            Controls.Add(restart);
             Name = "Quiz";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Quiz";
@@ -158,5 +202,8 @@
         private Panel panel3;
         private Panel panel4;
         private Panel panel5;
+        private ListBox answersList;
+        private Label endPoints;
+        private Button restart;
     }
 }

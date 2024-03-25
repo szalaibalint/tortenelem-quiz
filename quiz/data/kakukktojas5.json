@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Melyik a kakukktojás?",
+	"answers":[
+	{
+		"text": "Georgij Valentyinovics Plehanov",
+		"correct": false
+	},{
+		"text": "III. Sándor cár",
+		"correct": true
+	},{
+		"text": "Trockij lev Ravidovics",
+		"correct": false
+	},{
+		"text": "Kamanyev Leo Boriszovics",
+		"correct": false
+	}
+
+
+	]
+}
