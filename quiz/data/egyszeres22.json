@@ -3,18 +3,6 @@
 	"text":"ez a dinasztia több mint 100 évig volt uralmon..",
 	"answers":[
 	{
-		"text": "Maung Maung",
-		"correct": false
-	},{
-		"text": "bodavpaja",
-		"correct": false
-	},{
-		"text": "Bagidav",
-		"correct": false
-	},{
-		"text": "Tharavádi",
-		"correct": false
-	},{
 		"text": "Pagan",
 		"correct": false
 	},{
@@ -26,16 +14,6 @@
 	},{
 		"text": "Alaungpaja",
 		"correct": true
-	},{
-		
-		"text": "Naungdavgyi",
-		"correct": false
-	},{
-		"text": "Hszinbjusin",
-		"correct": false
-	},{
-		"text": "Szingu",
-		"correct": false
 	}
 	
 
