@@ -78,7 +78,6 @@ namespace quiz
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             if ((questionsTab.TabPages[questionsTab.SelectedIndex].Controls[0] as IQuestionControl).isSelected())
             {
                 bool isCorrect;
