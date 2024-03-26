@@ -33,6 +33,7 @@
             button1 = new Button();
             comboBox1 = new ComboBox();
             label2 = new Label();
+            maxLabel = new Label();
             SuspendLayout();
             // 
             // label1
@@ -64,7 +65,7 @@
             comboBox1.FlatStyle = FlatStyle.Flat;
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "10", "20", "30", "40", "50" });
-            comboBox1.Location = new Point(197, 163);
+            comboBox1.Location = new Point(197, 165);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(121, 23);
             comboBox1.TabIndex = 2;
@@ -80,12 +81,23 @@
             label2.Text = "Kérdések száma";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // maxLabel
+            // 
+            maxLabel.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            maxLabel.Location = new Point(197, 138);
+            maxLabel.Name = "maxLabel";
+            maxLabel.Size = new Size(121, 15);
+            maxLabel.TabIndex = 4;
+            maxLabel.Text = "(1 - x)";
+            maxLabel.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // mainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.PapayaWhip;
             ClientSize = new Size(541, 269);
+            Controls.Add(maxLabel);
             Controls.Add(label2);
             Controls.Add(comboBox1);
             Controls.Add(button1);
@@ -110,5 +122,6 @@
         private Button button1;
         private ComboBox comboBox1;
         private Label label2;
+        private Label maxLabel;
     }
 }

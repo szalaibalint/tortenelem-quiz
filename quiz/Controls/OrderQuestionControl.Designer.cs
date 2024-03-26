@@ -49,11 +49,12 @@
             // 
             listBox1.BackColor = Color.Tan;
             listBox1.BorderStyle = BorderStyle.None;
+            listBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 238);
             listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(181, 180);
+            listBox1.ItemHeight = 21;
+            listBox1.Location = new Point(131, 178);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(194, 165);
+            listBox1.Size = new Size(305, 168);
             listBox1.TabIndex = 10;
             // 
             // OrderQuestionControl

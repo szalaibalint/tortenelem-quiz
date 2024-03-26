@@ -31,6 +31,7 @@ namespace quiz
         private void mainForm_Load(object sender, EventArgs e)
         {
             DataManager.LoadData();
+            maxLabel.Text = $"(1 - {DataManager.Questions.Count})";
         }
     }
 }
