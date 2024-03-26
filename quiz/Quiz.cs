@@ -69,38 +69,43 @@ namespace quiz
 
         private void button1_Click(object sender, EventArgs e)
         {
-            bool isCorrect;
-            if ((questionsTab.TabPages[questionsTab.SelectedIndex].Controls[0] as IQuestionControl).IsCorrect())
+            bool isSelected;
+            if ((questionsTab.TabPages[questionsTab.SelectedIndex].Controls[0] as IQuestionControl).isSelected())
             {
-                points++;
-                isCorrect = true;
-            }
-            else
-            {
-                isCorrect = false;
-            }
+                bool isCorrect;
+                if ((questionsTab.TabPages[questionsTab.SelectedIndex].Controls[0] as IQuestionControl).IsCorrect())
+                {
+                    points++;
+                    isCorrect = true;
+                }
+                else
+                {
+                    isCorrect = false;
+                }
 
-            answersList.Items.Add($"{currentIndex + 1} - {(isCorrect ? "Helyes" : "Helytelen")}");
+                answersList.Items.Add($"{currentIndex + 1} - {(isCorrect ? "Helyes" : "Helytelen")}");
 
-            if (currentIndex < mainForm.questionCount - 1)
-            {
-                currentIndex++;
-                questionsTab.SelectedIndex = indexList[currentIndex];
+                if (currentIndex < mainForm.questionCount - 1)
+                {
+                    currentIndex++;
+                    questionsTab.SelectedIndex = indexList[currentIndex];
+                }
+                else
+                {
+                    answersList.Size = new Size(100, 390);
+                    answersList.Location = new Point(61, 31);
+                    endPoints.Text = $"Elért pontszám: {points}/{mainForm.questionCount}";
+
+                    label1.Visible = false;
+                    questionsTab.Visible = false;
+                    button1.Visible = false;
+
+                    restart.Visible = true;
+                    endPoints.Visible = true;
+                }
+                label1.Text = $"Pontok: {points}";
             }
-            else
-            {
-                answersList.Size = new Size(100, 390);
-                answersList.Location = new Point(61, 31);
-                endPoints.Text = $"Elért pontszám: {points}/{mainForm.questionCount}";
-
-                label1.Visible = false;
-                questionsTab.Visible = false;
-                button1.Visible = false;
-
-                restart.Visible = true;
-                endPoints.Visible = true;
-            }
-            label1.Text = $"Pontok: {points}";
+            
 
         }
 

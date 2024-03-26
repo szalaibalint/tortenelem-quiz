@@ -9,5 +9,6 @@ namespace quiz.Controls
     internal interface IQuestionControl
     {
         public bool IsCorrect();
+        public bool isSelected();
     }
 }
