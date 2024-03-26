@@ -61,6 +61,12 @@ namespace quiz
                     questionsTab.TabPages.Add(tab);
                     continue;
                 }
+                if (q is OrderQuestion)
+                {
+                    tab.Controls.Add(new OrderQuestionControl(q as OrderQuestion));
+                    questionsTab.TabPages.Add(tab);
+                    continue;
+                }
             }
             Random rnd = new Random();
             int rndNumber;

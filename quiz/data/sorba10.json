@@ -1,0 +1,22 @@
+{
+    "type": "order",
+    "text": "Találmányok",
+    "answers": [
+        {
+            "text": "Nyomtatás",
+            "correct": 2
+        },{
+            "text": "Repülés",
+            "correct": 5
+        },{
+            "text": "Auto",
+            "correct": 3
+        },{
+            "text": "Izzólámpa",
+            "correct": 4
+        },{
+            "text": "Iránytű",
+            "correct": 3
+        }
+    ]
+    }

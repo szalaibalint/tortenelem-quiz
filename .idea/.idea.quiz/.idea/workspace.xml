@@ -7,7 +7,82 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5b6f44a-9c2f-43b2-9898-f128f1dae0d3" name="Changes" comment="" />
+    <list default="true" id="e5b6f44a-9c2f-43b2-9898-f128f1dae0d3" name="Changes" comment="idk valamiért kellenek ezek hogy pulloljak">
+      <change afterPath="$PROJECT_DIR$/quiz/Questions/OrderQuestion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.quiz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/Questions/Answer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/Questions/Answer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/Questions/Question.cs" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/Questions/Question.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/Quiz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/Quiz.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres12.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/egyszeres9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/evszam1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/evszam2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/evszam3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/evszam4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/evszam5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/igazhamis1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/igazhamis10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/igazhamis2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/igazhamis3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/igazhamis4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/igazhamis5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/igazhamis6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/igazhamis7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/igazhamis8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/igazhamis9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas12.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas26.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas27.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/kakukktojas9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/data/tobbszoros1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/quiz.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +98,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ui" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,29 +136,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.quiz.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.quiz.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "order-question",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\User\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\User\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="quiz" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -119,7 +194,7 @@
       <workItem from="1711025495402" duration="187000" />
       <workItem from="1711104550274" duration="1160000" />
       <workItem from="1711438204666" duration="692000" />
-      <workItem from="1711438909013" duration="1064000" />
+      <workItem from="1711438909013" duration="899000" />
     </task>
     <task id="LOCAL-00001" summary="Létrehoztam a README.md fájlt és beleírtam a terveket">
       <option name="closed" value="true" />
@@ -185,15 +260,7 @@
       <option name="project" value="LOCAL" />
       <updated>1711439093951</updated>
     </task>
-    <task id="LOCAL-00009" summary="Hozzáadtam egy többszörös választós kérdést.">
-      <option name="closed" value="true" />
-      <created>1711439834980</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1711439834980</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +277,6 @@
     <MESSAGE value="Elkezdtem a ui-t." />
     <MESSAGE value="Létrehoztam a DataManager osztályt ami elmenti a kérdéseket. Emellett csináltam az igaz/hamis kérdéseknek egy user controlt és megcsináltam hogy lehessen a kérdések között lépkedni." />
     <MESSAGE value="idk valamiért kellenek ezek hogy pulloljak" />
-    <MESSAGE value="Hozzáadtam egy többszörös választós kérdést." />
-    <option name="LAST_COMMIT_MESSAGE" value="Hozzáadtam egy többszörös választós kérdést." />
+    <option name="LAST_COMMIT_MESSAGE" value="idk valamiért kellenek ezek hogy pulloljak" />
   </component>
 </project>

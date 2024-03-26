@@ -38,5 +38,10 @@ namespace quiz.Controls
         {
 
         }
+
+        private void TrueFalseQuestionControl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

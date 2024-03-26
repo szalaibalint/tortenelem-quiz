@@ -1,0 +1,22 @@
+{
+    "type": "order",
+    "text": "Török várhaborúk Magyarországon",
+    "answers": [
+        {
+            "text": "Kőszeg",
+            "correct": 2
+        },{
+            "text": "Buda",
+            "correct": 3
+        },{
+            "text": "Eger",
+            "correct": 5
+        },{
+            "text": "Nándorfehérvár",
+            "correct": 1
+        },{
+            "text": "Temesvár",
+            "correct": 4
+        }
+    ]
+    }

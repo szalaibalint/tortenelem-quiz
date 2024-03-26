@@ -21,6 +21,8 @@ public abstract class Question {
 
         string type = json["type"].ToString();
         string text = json["text"].ToString();
+  
+
 
         switch (type)
         {
@@ -38,6 +40,15 @@ public abstract class Question {
                 return new TrueFalseQuestion(text, json["correct"].GetValue<bool>());
             case "date":
                 return new DateQuestion(text, json["answer"].GetValue<int>());
+            case "order":
+                List<NumericAnswer> numericAnswers = new();
+                JsonArray jsonArray1 = json["answers"].AsArray();
+                foreach(JsonObject ans in jsonArray1)
+                {
+                    numericAnswers.Add(new NumericAnswer(ans["text"].ToString(), ans["correct"].GetValue<int>()));
+                }
+
+                return new OrderQuestion(text, numericAnswers);
         }
         return null;
     }

@@ -1,0 +1,22 @@
+{
+    "type": "order",
+    "text": "Árpád házi királyok",
+    "answers": [
+        {
+            "text": "I. András",
+            "correct": 2
+        },{
+            "text": "Szent István",
+            "correct": 1
+        },{
+            "text": "II. András",
+            "correct": 4
+        },{
+            "text": "IV. Béla",
+            "correct": 5
+        },{
+            "text": "Könyves Kálmán",
+            "correct": 3
+        }
+    ]
+    }

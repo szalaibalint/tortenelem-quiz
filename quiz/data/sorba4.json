@@ -1,0 +1,22 @@
+{
+    "type": "order",
+    "text": "Jézus élete",
+    "answers": [
+        {
+            "text": "Hirdeti a kereszténységet",
+            "correct": 3
+        },{
+            "text": "Júdás elárulja",
+            "correct": 4
+        },{
+            "text": "Jézus visszamegy a mennybe",
+            "correct": 5
+        },{
+            "text": "A 3 vándor meglátogatja jézust",
+            "correct": 2
+        },{
+            "text": "Az angyal lejon szűz Máriához",
+            "correct": 1
+        }
+    ]
+    }

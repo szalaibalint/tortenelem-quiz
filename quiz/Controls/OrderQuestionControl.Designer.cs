@@ -1,6 +1,6 @@
 ﻿namespace quiz.Controls
 {
-    partial class TrueFalseQuestionControl
+    partial class OrderQuestionControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,8 +29,7 @@
         private void InitializeComponent()
         {
             questionTb = new TextBox();
-            falseButton = new RadioButton();
-            trueButton = new RadioButton();
+            listBox1 = new ListBox();
             SuspendLayout();
             // 
             // questionTb
@@ -42,52 +41,30 @@
             questionTb.Name = "questionTb";
             questionTb.ReadOnly = true;
             questionTb.Size = new Size(564, 171);
-            questionTb.TabIndex = 7;
+            questionTb.TabIndex = 9;
             questionTb.TabStop = false;
             questionTb.Text = "asdfghjkléá";
             // 
-            // falseButton
+            // listBox1
             // 
-            falseButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            falseButton.Appearance = Appearance.Button;
-            falseButton.BackColor = Color.BurlyWood;
-            falseButton.FlatStyle = FlatStyle.Flat;
-            falseButton.Font = new Font("Segoe UI", 18F);
-            falseButton.Location = new Point(75, 222);
-            falseButton.Name = "falseButton";
-            falseButton.Size = new Size(130, 70);
-            falseButton.TabIndex = 8;
-            falseButton.Text = "Hamis";
-            falseButton.TextAlign = ContentAlignment.MiddleCenter;
-            falseButton.UseVisualStyleBackColor = false;
+            listBox1.BackColor = Color.Tan;
+            listBox1.BorderStyle = BorderStyle.None;
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 15;
+            listBox1.Location = new Point(181, 180);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(194, 165);
+            listBox1.TabIndex = 10;
             // 
-            // trueButton
-            // 
-            trueButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            trueButton.Appearance = Appearance.Button;
-            trueButton.BackColor = Color.BurlyWood;
-            trueButton.FlatStyle = FlatStyle.Flat;
-            trueButton.Font = new Font("Segoe UI", 18F);
-            trueButton.Location = new Point(354, 222);
-            trueButton.Name = "trueButton";
-            trueButton.Size = new Size(130, 70);
-            trueButton.TabIndex = 9;
-            trueButton.Text = "Igaz";
-            trueButton.TextAlign = ContentAlignment.MiddleCenter;
-            trueButton.UseVisualStyleBackColor = false;
-            trueButton.CheckedChanged += trueButton_CheckedChanged;
-            // 
-            // TrueFalseQuestionControl
+            // OrderQuestionControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.PapayaWhip;
-            Controls.Add(trueButton);
-            Controls.Add(falseButton);
+            Controls.Add(listBox1);
             Controls.Add(questionTb);
-            Name = "TrueFalseQuestionControl";
+            Name = "OrderQuestionControl";
             Size = new Size(570, 350);
-            Load += TrueFalseQuestionControl_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -95,7 +72,6 @@
         #endregion
 
         private TextBox questionTb;
-        private RadioButton falseButton;
-        private RadioButton trueButton;
+        private ListBox listBox1;
     }
 }

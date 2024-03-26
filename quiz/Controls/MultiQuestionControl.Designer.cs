@@ -133,6 +133,7 @@
             Controls.Add(questionTb);
             Name = "MultiQuestionControl";
             Size = new Size(570, 350);
+            Load += MultiQuestionControl_Load;
             ResumeLayout(false);
             PerformLayout();
         }

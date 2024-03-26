@@ -1,0 +1,22 @@
+{
+  "type": "multi",
+  "text": "Az alábbiakban egykor Magyarországon található városok nevét találod. Mond meg az eggyes városok mostani hivatalos nevét az országy nyelvén, illetve hogy jelenleg melyik ország területén fekszik! NAGYENYED",
+  "answers": [
+    {
+      "text": "Aiud",
+      "correct": true
+    },
+    {
+      "text": "Románia",
+      "correct": true
+    },
+    {
+      "text": "Turda",
+      "correct": false
+    },
+    {
+      "text": "Szerbia",
+      "correct": false
+    }
+  ]
+}

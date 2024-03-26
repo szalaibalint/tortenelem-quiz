@@ -1,0 +1,22 @@
+{
+    "type": "order",
+    "text": "II. Világháború előzményei:",
+    "answers": [
+        {
+            "text": "Saar-vidék visszaszerzése",
+            "correct": 2
+        },{
+            "text": "A Rajna-vidék visszaszerzés",
+            "correct": 3
+        },{
+            "text": "Csehország bekebelezése",
+            "correct": 5
+        },{
+            "text": "Hitler fejleszti a hadseregét",
+            "correct": 1
+        },{
+            "text": " Ausztria bekebelezése",
+            "correct": 4
+        }
+    ]
+    }

@@ -1,0 +1,22 @@
+{
+    "type": "order",
+    "text": "Földrajzi felfedezések",
+    "answers": [
+        {
+            "text": "Brazília",
+            "correct": 3
+        },{
+            "text": "Amerika",
+            "correct": 1
+        },{
+            "text": "Salamon-szigetek",
+            "correct": 5
+        },{
+            "text": "Föld megkerülése",
+            "correct": 4
+        },{
+            "text": "India",
+            "correct": 2
+        }
+    ]
+    }

@@ -1,0 +1,22 @@
+{
+    "type": "order",
+    "text": "Hidegháború eseményei",
+    "answers": [
+        {
+            "text": "kubai rakétaválság",
+            "correct": 4
+        },{
+            "text": "Stalin halála",
+            "correct": 3
+        },{
+            "text": "Churchill 'vasfüggüny' nyilatkozata",
+            "correct": 1
+        },{
+            "text": "Koreai háború",
+            "correct": 2
+        },{
+            "text": "Helsinki záróokmány",
+            "correct": 5
+        }
+    ]
+    }

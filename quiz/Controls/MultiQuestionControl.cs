@@ -53,5 +53,10 @@ namespace quiz.Controls
             }
             return true;
         }
+
+        private void MultiQuestionControl_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

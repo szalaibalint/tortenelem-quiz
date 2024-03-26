@@ -1,0 +1,22 @@
+{
+    "type": "order",
+    "text": "Mikor léptek be az I. vh-ba az országok:",
+    "answers": [
+        {
+            "text": "OMM",
+            "correct": 1
+        },{
+            "text": "Görögország",
+            "correct": 5
+        },{
+            "text": "Románia",
+            "correct": 4
+        },{
+            "text": "Bulgária",
+            "correct": 3
+        },{
+            "text": "Oroszország",
+            "correct": 2
+        }
+    ]
+    }
