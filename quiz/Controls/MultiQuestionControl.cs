@@ -32,6 +32,18 @@ namespace quiz.Controls
             this.question = question;
         }
 
+        public bool isSelected()
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                if (checkBoxes[i].Checked)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         public bool IsCorrect()
         {
             for (int i = 0; i < checkBoxes.Count; i++)

@@ -91,7 +91,13 @@
             Controls.Add(button1);
             Controls.Add(label1);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            MaximumSize = new Size(557, 308);
+            MdiChildrenMinimizedAnchorBottom = false;
+            MinimizeBox = false;
+            MinimumSize = new Size(557, 308);
             Name = "mainForm";
+            SizeGripStyle = SizeGripStyle.Hide;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "tortenelem-quiz";
             Load += mainForm_Load;

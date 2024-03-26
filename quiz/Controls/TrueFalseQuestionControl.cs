@@ -21,6 +21,14 @@ namespace quiz.Controls
             questionTb.Text = question.Text;
         }
 
+        public bool isSelected()
+        {
+            if (trueButton.Checked || falseButton.Checked)
+            {
+                return true;
+            }
+            return false;
+        }
         public bool IsCorrect()
         {
             return (question.IsCorrect && trueButton.Checked) || (!question.IsCorrect && falseButton.Checked);
