@@ -1,0 +1,19 @@
+﻿{
+  "type": "multi",
+  "text": "Melyik államok voltak a központi hatalmak tagjai",
+  "answers":[
+    {
+      "text": "Oszmán Birodalom",
+      "correct": true
+    }, {
+      "text": "Szovjetúnió",
+      "correct": false
+    }, {
+      "text": "Bosznia",
+      "correct": false
+    }, {
+      "text": "Bulgária",
+      "correct": true
+    }
+  ]
+}
