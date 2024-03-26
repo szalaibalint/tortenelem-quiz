@@ -43,6 +43,7 @@
             questionTb.ReadOnly = true;
             questionTb.Size = new Size(564, 171);
             questionTb.TabIndex = 6;
+            questionTb.TabStop = false;
             questionTb.Text = "asdfghjkléá";
             // 
             // dateInput

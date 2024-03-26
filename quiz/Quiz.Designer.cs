@@ -32,7 +32,6 @@
             label1 = new Label();
             questionsTab = new TabControl();
             button1 = new Button();
-            pointsLbl = new Label();
             panel1 = new Panel();
             answersList = new ListBox();
             panel2 = new Panel();
@@ -78,15 +77,6 @@
             button1.TabIndex = 2;
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
-            // 
-            // pointsLbl
-            // 
-            pointsLbl.AutoSize = true;
-            pointsLbl.Location = new Point(729, 9);
-            pointsLbl.Name = "pointsLbl";
-            pointsLbl.Size = new Size(13, 15);
-            pointsLbl.TabIndex = 3;
-            pointsLbl.Text = "0";
             // 
             // panel1
             // 
@@ -177,10 +167,13 @@
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Controls.Add(pointsLbl);
             Controls.Add(questionsTab);
             Controls.Add(endPoints);
             Controls.Add(restart);
+            MaximizeBox = false;
+            MaximumSize = new Size(816, 489);
+            MinimizeBox = false;
+            MinimumSize = new Size(816, 489);
             Name = "Quiz";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Quiz";
@@ -196,7 +189,6 @@
         private Label label1;
         private TabControl questionsTab;
         private Button button1;
-        private Label pointsLbl;
         private Panel panel1;
         private Panel panel2;
         private Panel panel3;

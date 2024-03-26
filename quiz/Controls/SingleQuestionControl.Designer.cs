@@ -101,7 +101,8 @@
             questionTb.Name = "questionTb";
             questionTb.ReadOnly = true;
             questionTb.Size = new Size(564, 171);
-            questionTb.TabIndex = 5;
+            questionTb.TabIndex = 8;
+            questionTb.TabStop = false;
             questionTb.Text = "asdfghjkléá";
             // 
             // SingleQuestionControl
