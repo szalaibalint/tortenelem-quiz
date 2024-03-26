@@ -13,7 +13,7 @@ public class QuestionTests {
 
         List<Answer> answers = new() { new Answer("text1", false), new("text2", false), new("text3", true), new("text4", false) };
 
-        Assert.AreEqual("gyurcsány egy geci", question.Text);
+        Assert.AreEqual("gyuri", question.Text);
         Assert.AreEqual(false, question.Multiselect);
         CollectionAssert.AreEqual(answers, question.Answers);
     }
@@ -24,7 +24,7 @@ public class QuestionTests {
     {
         TrueFalseQuestion question = Question.LoadFromJSON("truefalse.json") as TrueFalseQuestion;
 
-        Assert.AreEqual("Gyurcsány egy geci?", question.Text);
+        Assert.AreEqual("gyuri on top?", question.Text);
         Assert.AreEqual(true, question.IsCorrect);
     }
 
@@ -34,7 +34,7 @@ public class QuestionTests {
     {
         DateQuestion question = Question.LoadFromJSON("date.json") as DateQuestion;
 
-        Assert.AreEqual("mikor született Gyurcsány Ferenc?", question.Text);
+        Assert.AreEqual("mikor született gyuri?", question.Text);
         Assert.AreEqual(1961, question.Answer);
     }
 
