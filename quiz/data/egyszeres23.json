@@ -1,0 +1,22 @@
+{
+	"type": "single",
+	"text":"leghosszabb időn át uralkodó dinasztia..",
+	"answers":[
+	{
+		"text": "Jogbea Szejum",
+		"correct": false
+	},{
+		"text": "Jekumo Amlak",
+		"correct": true
+	},{
+		"text": "Vedem Raad",
+		"correct": false
+	},{
+		"text": "I. Ama Szejum ",
+		"correct": false
+	}
+	
+
+
+	]
+}

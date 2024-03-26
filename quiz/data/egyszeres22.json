@@ -1,0 +1,22 @@
+{
+	"type": "single",
+	"text":"ez a dinasztia több mint 100 évig volt uralmon..",
+	"answers":[
+	{
+		"text": "Pagan",
+		"correct": false
+	},{
+		"text": "Mindon",
+		"correct": false
+	},{
+		"text": "Szedzsó",
+		"correct": false
+	},{
+		"text": "Alaungpaja",
+		"correct": true
+	}
+	
+
+
+	]
+}

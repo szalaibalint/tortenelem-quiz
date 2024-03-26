@@ -1,0 +1,19 @@
+﻿{
+  "type": "multi",
+  "text": "multiselect question",
+  "answers": [
+    {
+      "text": "t1",
+      "correct": false
+    }, {
+      "text": "t2",
+      "correct": true
+    }, {
+      "text": "t3",
+      "correct": true
+    }, {
+      "text": "t4",
+      "correct": false
+    }
+  ]
+}

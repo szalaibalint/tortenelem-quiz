@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Melyik a kakukktojás?",
+	"answers":[
+	{
+		"text": "Chlodvig",
+		"correct": false
+	},{
+		"text": "Martell Károly",
+		"correct": true
+	},{
+		"text": "Kis Pipin",
+		"correct": false
+	},{
+		"text": "Nagy Károly",
+		"correct": false
+	}
+
+
+	]
+}

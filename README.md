@@ -100,6 +100,7 @@ class Válasz {
 ### Igaz/Hamis
 ~~~
 {
+    "típus": "igazhamis",
     "cím": "Lenin 1930-ban halt meg",
     "helyes": false
 }
@@ -108,6 +109,7 @@ class Válasz {
 ### Évszám
 ~~~
 {
+    "típus": "evszam",
     "cím": "Mikor lett vége a 2. Világháborúnak",
     "helyes": 1945
 }

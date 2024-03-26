@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Kik foglalták el 1919.junius 8-án Zólyomot?",
+	"answers":[
+	{
+		"text": "Magyaroszág",
+		"correct": true
+	},{
+		"text": "Szlovénia",
+		"correct": false
+	},{
+		"text": "Németország",
+		"correct": false
+	},{
+		"text": "Ukrajna",
+		"correct": false
+	}
+
+
+	]
+}

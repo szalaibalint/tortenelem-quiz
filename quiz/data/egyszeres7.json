@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Varsóban koronázott Erdélyi fejedelem, Lengyel király, kiről van szó?",
+	"answers":[
+	{
+		"text": "Báthory István",
+		"correct": true
+	},{
+		"text": "Hunyadi László",
+		"correct": false
+	},{
+		"text": "Bethlen Gábor",
+		"correct": true
+	},{
+		"text": "Rákoczi Ferenc",
+		"correct": false
+	}
+
+
+	]
+}

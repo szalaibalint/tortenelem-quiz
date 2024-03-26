@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Melyik a kakukktojás?",
+	"answers":[
+	{
+		"text": "August Bebel",
+		"correct": false
+	},{
+		"text": "Karl Liebknecht",
+		"correct": false
+	},{
+		"text": "Pierre-Joseph Proudhon",
+		"correct": true
+	},{
+		"text": "Alfred Windischgrätz herceg",
+		"correct": false
+	}
+
+
+	]
+}
