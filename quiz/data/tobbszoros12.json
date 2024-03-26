@@ -1,0 +1,19 @@
+{
+    "type": "multi",
+    "text": "Kik éltek a 20. században?",
+    "answers": [
+        {
+            "text": "Görgei Artúr",
+            "correct": true
+        }, {
+            "text": "Batthyány Lajos",
+            "correct": false
+        }, {
+            "text": "Nikola Tesla",
+            "correct": true
+        }, {
+            "text": "Kossuth Lajos",
+            "correct": false
+        }
+    ]
+}

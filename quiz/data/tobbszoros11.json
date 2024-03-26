@@ -1,0 +1,19 @@
+{
+    "type": "multi",
+    "text": "Mik voltak a Szovjetúnió tagállamai?",
+    "answers": [
+        {
+            "text": "Ukrajna",
+            "correct": true
+        }, {
+            "text": "Lengyelország",
+            "correct": false
+        }, {
+            "text": "Jugoszlávia",
+            "correct": false
+        }, {
+            "text": "Oroszország",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "multi",
+    "text": "Melyik államok voltak a tengelyhatalmak tagjai?",
+    "answers": [
+        {
+            "text": "Olaszország",
+            "correct": true
+        }, {
+            "text": "Japán",
+            "correct": true
+        }, {
+            "text": "Görögország",
+            "correct": false
+        }, {
+            "text": "Magyarország",
+            "correct": true
+        }
+    ]
+}

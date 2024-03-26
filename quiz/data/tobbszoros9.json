@@ -1,0 +1,19 @@
+{
+    "type": "multi",
+    "text": "Kik voltak magyar királyok",
+    "answers": [
+        {
+            "text": "Hunyadi Mátyás",
+            "correct": true
+        }, {
+            "text": "Hunyadi János",
+            "correct": false
+        }, {
+            "text": "I. Géza",
+            "correct": false
+        }, {
+            "text": "II. András",
+            "correct": true
+        }
+    ]   
+}

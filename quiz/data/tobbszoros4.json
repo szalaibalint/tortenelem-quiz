@@ -1,0 +1,19 @@
+{
+    "type": "multi",
+    "text": "Melyik államok voltak az Antant tagjai?",
+    "answers": [
+        {
+            "text": "Olaszország",
+            "correct": true
+        }, {
+            "text": "Bulgária",
+            "correct": false
+        }, {
+            "text": "Szerbia",
+            "correct": true
+        }, {
+            "text": "Svédország",
+            "correct": false
+        }
+    ]
+}

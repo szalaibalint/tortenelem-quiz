@@ -1,0 +1,19 @@
+{
+    "type": "multi",
+    "text": "Kik voltak kormányzók?",
+    "answers": [
+        {
+            "text": "Gyurcsány Ferenc",
+            "correct": false
+        }, {
+            "text": "Horthy Miklós",
+            "correct": true
+        }, {
+            "text": "Teleki Pál",
+            "correct": false
+        }, {
+            "text": "Kossuth Lajos",
+            "correct": true
+        }
+    ]
+}

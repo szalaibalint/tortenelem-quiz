@@ -1,0 +1,19 @@
+{
+    "type": "multi",
+    "text": "Mely címeket birtokolta Nagy Lajos?",
+    "answers": [
+        {
+            "text": "Lengyel király",
+            "correct": true
+        }, {
+            "text": "Német római császár",
+            "correct": false
+        }, {
+            "text": "Francia király",
+            "correct": false
+        }, {
+            "text": "Magyar király",
+            "correct": true
+        }
+    ]
+}

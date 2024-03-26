@@ -1,0 +1,19 @@
+{
+    "type": "multi",
+    "text": "Kik halt meg csatában?",
+    "answers": [
+        {
+            "text": "Petőfi Sándor",
+            "correct": true
+        }, {
+            "text": "Zrínyi Miklós",
+            "correct": true
+        }, {
+            "text": "Leónidasz",
+            "correct": true
+        }, {
+            "text": "II. Lajos",
+            "correct": true
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "multi",
+    "text": "Mely területeket vették el a trianoni békediktátumban.",
+    "answers": [
+        {
+            "text": "Felvidék",
+            "correct": true
+        }, {
+            "text": "Partium",
+            "correct": true
+        }, {
+            "text": "Horvátország",
+            "correct": true
+        }, {
+            "text": "Erdély",
+            "correct": true
+        }
+    ]
+}

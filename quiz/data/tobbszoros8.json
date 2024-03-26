@@ -1,0 +1,19 @@
+{
+    "type": "multi",
+    "text": "Milyen pénzeket veretett Károly Róbert?",
+    "answers": [
+        {
+            "text": "Krajcár",
+            "correct": false
+        }, {
+            "text": "Ezüst dénár",
+            "correct": true
+        }, {
+            "text": "Arany forint",
+            "correct": true
+        }, {
+            "text": "Réz pengő",
+            "correct": false
+        }
+    ]
+}

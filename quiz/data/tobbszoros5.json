@@ -1,0 +1,19 @@
+{
+    "type": "multi",
+    "text": "Melyek voltak szükségesek a magyar király megkoronázásához?",
+    "answers": [
+        {
+            "text": "A szent korona",
+            "correct": true
+        }, {
+            "text": "Az esztergomi érsek végezze el",
+            "correct": true
+        }, {
+            "text": "A budai főispán",
+            "correct": false
+        }, {
+            "text": "Fehérvár a helyszín",
+            "correct": true
+        }
+    ]
+}

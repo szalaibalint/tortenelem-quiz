@@ -1,0 +1,19 @@
+{
+    "type": "multi",
+    "text": "Melyik államok voltak a szövetségesek tagjai?",
+    "answers": [
+        {
+            "text": "Magyarország",
+            "correct": false
+        }, {
+            "text": "Románia",
+            "correct": false
+        }, {
+            "text": "Egyesült Államok",
+            "correct": true
+        }, {
+            "text": "Franciaország",
+            "correct": true
+        }
+    ]
+}
