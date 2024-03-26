@@ -1,0 +1,19 @@
+{
+    "type": "single",
+    "text": "Ki mondta: Tarsolyában hordja a marsallbotot?",
+    "answers": [
+        {
+            "text": "Napóleon",
+            "correct": true
+        },{
+            "text": "XIV.Lajos",
+            "correct": false
+        },{
+            "text": "IV.Henrik",
+            "correct": false
+        },{
+            "text": "Shakespeare",
+            "correct": false
+        }
+    ]
+}

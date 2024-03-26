@@ -1,0 +1,22 @@
+{
+	"type": "single",
+	"text":"egy olyan uralkodó házból származó királyok akinek akik több mint fel évezredig uralkodtak..",
+	"answers":[
+	{
+		"text": "Mundnong",
+		"correct": false
+	},{
+		"text": "Taudzsong",
+		"correct": false
+	},{
+		"text": "Tedzsó (Ri Szongje)",
+		"correct": true
+	},{
+		"text": "Szedzsó",
+		"correct": false
+	}
+	
+
+
+	]
+}

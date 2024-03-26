@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Melyik a kakukktojás?",
+	"answers":[
+	{
+		"text": "Hosszúfalu",
+		"correct": false
+	},{
+		"text": "Tatrang",
+		"correct": true 
+	},{
+		"text": "Zajzon",
+		"correct": false
+	},{
+		"text": "Tamásfalva",
+		"correct": false
+	}
+
+
+	]
+}

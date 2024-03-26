@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Miért tisztelik Nagy Lajos király lányát Krakkóban?",
+	"answers":[
+	{
+		"text": "Feláldozta magát a városért",
+		"correct": false
+	},{
+		"text": "Krakkói egyetem újra indítása illetve a hit terjesztése",
+		"correct": true
+	},{
+		"text": "Gazdasági reformok",
+		"correct": false
+	},{
+		"text": "Lengyel nép védőszentje",
+		"correct": false
+	}
+
+
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"type": "single",
+	"text":"Melyik közel kétszáz évig uralkodó dinasztiát irtották ki a felfedezők?",
+	"answers":[
+	{
+		"text": "Itzoatl",
+		"correct": false
+	},{
+		"text": "Chimalpopoca",
+		"correct": false
+	},{
+		"text": "Huitziiihuitl",
+		"correct": false
+	},{
+		"text": "Acamapichtli",
+		"correct": true
+	}
+	
+
+
+	]
+}

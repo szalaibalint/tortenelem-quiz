@@ -1,0 +1,21 @@
+{
+	"type": "single",
+	"text":"Melyik a kakukktojás?",
+	"answers":[
+	{
+		"text": "Deák Ferenc",
+		"correct": false
+	},{
+		"text": "Eötvös József báró",
+		"correct": false
+	},{
+		"text": "Teleki Pál gróf",
+		"correct": true
+	},{
+		"text": "Apponyi Albert Gróf",
+		"correct": false
+	}
+
+
+	]
+}
