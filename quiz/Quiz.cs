@@ -46,6 +46,12 @@ namespace quiz
                     questionsTab.TabPages.Add(tab);
                     continue;
                 }
+                if (q is TrueFalseQuestion)
+                {
+                    tab.Controls.Add(new TrueFalseQuestionControl(q as TrueFalseQuestion));
+                    questionsTab.TabPages.Add(tab);
+                    continue;
+                }
             }
             Random rnd = new Random();
             int rndNumber;

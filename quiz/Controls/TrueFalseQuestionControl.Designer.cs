@@ -49,6 +49,7 @@
             // 
             falseButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             falseButton.Appearance = Appearance.Button;
+            falseButton.BackColor = Color.BurlyWood;
             falseButton.FlatStyle = FlatStyle.Flat;
             falseButton.Font = new Font("Segoe UI", 18F);
             falseButton.Location = new Point(75, 222);
@@ -57,12 +58,13 @@
             falseButton.TabIndex = 8;
             falseButton.Text = "Hamis";
             falseButton.TextAlign = ContentAlignment.MiddleCenter;
-            falseButton.UseVisualStyleBackColor = true;
+            falseButton.UseVisualStyleBackColor = false;
             // 
             // trueButton
             // 
             trueButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             trueButton.Appearance = Appearance.Button;
+            trueButton.BackColor = Color.BurlyWood;
             trueButton.FlatStyle = FlatStyle.Flat;
             trueButton.Font = new Font("Segoe UI", 18F);
             trueButton.Location = new Point(354, 222);
@@ -71,7 +73,7 @@
             trueButton.TabIndex = 9;
             trueButton.Text = "Igaz";
             trueButton.TextAlign = ContentAlignment.MiddleCenter;
-            trueButton.UseVisualStyleBackColor = true;
+            trueButton.UseVisualStyleBackColor = false;
             trueButton.CheckedChanged += trueButton_CheckedChanged;
             // 
             // TrueFalseQuestionControl
