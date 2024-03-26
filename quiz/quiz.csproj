@@ -17,35 +17,6 @@
     
 		
 	<ItemGroup>
-	  <None Remove="data\egyszeres1.json" />
-	  <None Remove="data\egyszeres10.json" />
-	  <None Remove="data\egyszeres11.json" />
-	  <None Remove="data\egyszeres12.json" />
-	  <None Remove="data\egyszeres13.json" />
-	  <None Remove="data\egyszeres14.json" />
-	  <None Remove="data\egyszeres15.json" />
-	  <None Remove="data\egyszeres16.json" />
-	  <None Remove="data\egyszeres17.json" />
-	  <None Remove="data\egyszeres18.json" />
-	  <None Remove="data\egyszeres19.json" />
-	  <None Remove="data\egyszeres2.json" />
-	  <None Remove="data\egyszeres20.json" />
-	  <None Remove="data\egyszeres3.json" />
-	  <None Remove="data\egyszeres4.json" />
-	  <None Remove="data\egyszeres5.json" />
-	  <None Remove="data\egyszeres6.json" />
-	  <None Remove="data\egyszeres7.json" />
-	  <None Remove="data\egyszeres8.json" />
-	  <None Remove="data\egyszeres9.json" />
-	  <None Remove="data\evszam1.json" />
-	  <None Remove="data\evszam2.json" />
-	  <None Remove="data\evszam3.json" />
-	  <None Remove="data\evszam4.json" />
-	  <None Remove="data\evszam5.json" />
-	</ItemGroup>
-    
-		
-	<ItemGroup>
 	  <Compile Update="Properties\Resources.Designer.cs">
 	    <DesignTime>True</DesignTime>
 	    <AutoGen>True</AutoGen>
