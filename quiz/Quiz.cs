@@ -30,14 +30,23 @@ namespace quiz
             questionsTab.ItemSize = new Size(0, 1);
             questionsTab.SizeMode = TabSizeMode.Fixed;
 
+            // Kérdés controllok hozzáadása
             questionsTab.TabPages.Clear();
             foreach (Question q in DataManager.Questions)
             {
                 TabPage tab = new TabPage();
                 if (q is SelectionQuestion)
                 {
-                    tab.Controls.Add(new SingleQuestionControl(q as SelectionQuestion));
-                    questionsTab.TabPages.Add(tab);
+                    if((q as SelectionQuestion).Multiselect)
+                    {
+                        tab.Controls.Add(new MultiQuestionControl(q as SelectionQuestion));
+                        questionsTab.TabPages.Add(tab);
+                    }
+                    else
+                    {
+                        tab.Controls.Add(new SingleQuestionControl(q as SelectionQuestion));
+                        questionsTab.TabPages.Add(tab);
+                    }
                     continue;
                 }
                 if (q is DateQuestion)
@@ -69,7 +78,6 @@ namespace quiz
 
         private void button1_Click(object sender, EventArgs e)
         {
-            bool isSelected;
             if ((questionsTab.TabPages[questionsTab.SelectedIndex].Controls[0] as IQuestionControl).isSelected())
             {
                 bool isCorrect;
@@ -105,8 +113,6 @@ namespace quiz
                 }
                 label1.Text = $"Pontok: {points}";
             }
-            
-
         }
 
         private void restart_Click(object sender, EventArgs e)
