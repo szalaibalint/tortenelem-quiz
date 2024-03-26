@@ -45,7 +45,6 @@
             answer1Rb.Name = "answer1Rb";
             answer1Rb.Size = new Size(190, 48);
             answer1Rb.TabIndex = 1;
-            answer1Rb.TabStop = true;
             answer1Rb.Text = "answer1";
             answer1Rb.TextAlign = ContentAlignment.MiddleCenter;
             answer1Rb.UseVisualStyleBackColor = false;
@@ -60,7 +59,6 @@
             answer2Rb.Name = "answer2Rb";
             answer2Rb.Size = new Size(190, 48);
             answer2Rb.TabIndex = 2;
-            answer2Rb.TabStop = true;
             answer2Rb.Text = "answer2";
             answer2Rb.TextAlign = ContentAlignment.MiddleCenter;
             answer2Rb.UseVisualStyleBackColor = false;
@@ -76,7 +74,6 @@
             answer4Rb.Name = "answer4Rb";
             answer4Rb.Size = new Size(190, 48);
             answer4Rb.TabIndex = 4;
-            answer4Rb.TabStop = true;
             answer4Rb.Text = "answer4";
             answer4Rb.TextAlign = ContentAlignment.MiddleCenter;
             answer4Rb.UseVisualStyleBackColor = false;
@@ -91,7 +88,6 @@
             answer3Rb.Name = "answer3Rb";
             answer3Rb.Size = new Size(190, 48);
             answer3Rb.TabIndex = 3;
-            answer3Rb.TabStop = true;
             answer3Rb.Text = "answer3";
             answer3Rb.TextAlign = ContentAlignment.MiddleCenter;
             answer3Rb.UseVisualStyleBackColor = false;

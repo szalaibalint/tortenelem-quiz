@@ -32,6 +32,18 @@ namespace quiz.Controls
             radioButtons.Add(answer4Rb);
         }
 
+        public bool isSelected()
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                if (radioButtons[i].Checked)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         public bool IsCorrect()
         {
             for (int i = 0; i < 4; i++)

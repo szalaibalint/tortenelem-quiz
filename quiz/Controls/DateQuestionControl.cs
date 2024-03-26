@@ -21,6 +21,11 @@ namespace quiz.Controls
             questionTb.Text = question.Text;
         }
 
+        public bool isSelected()
+        {
+            return true;
+        }
+
         public bool IsCorrect()
         {
             return dateInput.Value == question.Answer;

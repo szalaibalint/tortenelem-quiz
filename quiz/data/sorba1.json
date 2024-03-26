@@ -1,0 +1,22 @@
+{
+"type": "order",
+"text": "Erdélyi fejedelmek sorrendje:",
+"answers": [
+    {
+        "text": "Bethlen Gábor",
+        "correct": 3
+    },{
+        "text": "II.Rákoczi Ferenc",
+        "correct": 5
+    },{
+        "text": "János Zsigmond",
+        "correct": 1
+    },{
+        "text": "Thököly Imre",
+        "correct": 4
+    },{
+        "text": "Bocskai István",
+        "correct": 2
+    }
+]
+}
