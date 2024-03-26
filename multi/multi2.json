@@ -1,0 +1,22 @@
+{
+  "type": "multi",
+  "text": "Az alábbiakban egykor Magyarországon található városok nevét találod. Mond meg az eggyes városok mostani hivatalos nevét az országy nyelvén, illetve hogy jelenleg melyik ország területén fekszik! GALAMBÓC",
+  "answers": [
+    {
+      "text": "Turda",
+      "correct": false
+    },
+    {
+      "text": "Szerbia",
+      "correct": true
+    },
+    {
+      "text": "Szlovákia",
+      "correct": false
+    },
+    {
+      "text": "Golubac",
+      "correct": true
+    }
+  ]
+}

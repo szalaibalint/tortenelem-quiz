@@ -1,0 +1,22 @@
+{
+  "type": "multi",
+  "text": "Az alábbiakban egykor Magyarországon található városok nevét találod. Mond meg az eggyes városok mostani hivatalos nevét az országy nyelvén, illetve hogy jelenleg melyik ország területén fekszik! KISMARTON",
+  "answers": [
+    {
+      "text": "Horvátország",
+      "correct": false
+    },
+    {
+      "text": "Eisenstadt",
+      "correct": true
+    },
+    {
+      "text": "Ausztria",
+      "correct": true
+    },
+    {
+      "text": "Kesvice",
+      "correct": false
+    }
+  ]
+}

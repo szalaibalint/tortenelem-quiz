@@ -1,0 +1,22 @@
+{
+  "type": "multi",
+  "text": "Az alábbiakban egykor Magyarországon található városok nevét találod. Mond meg az eggyes városok mostani hivatalos nevét az országy nyelvén, illetve hogy jelenleg melyik ország területén fekszik! SZISZEK",
+  "answers": [
+    {
+      "text": "Sisak",
+      "correct": true
+    },
+    {
+      "text": "Schimberlum",
+      "correct": false
+    },
+    {
+      "text": "Ausztria",
+      "correct": false
+    },
+    {
+      "text": "Horvátország",
+      "correct": true
+    }
+  ]
+}
