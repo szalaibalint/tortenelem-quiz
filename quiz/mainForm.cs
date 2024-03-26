@@ -21,6 +21,10 @@ namespace quiz
                 form.ShowDialog();
                 this.Close();
             }
+            else
+            {
+                MessageBox.Show("Érvénytelen kérdésszám! Tanulj meg olvasni!!!!", "Hiba");
+            }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
