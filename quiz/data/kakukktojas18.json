@@ -3,16 +3,16 @@
 	"text":"Melyik a kakukktojás?",
 	"answers":[
 	{
-		"text": "a grammatika",
+		"text": "A grammatika",
 		"correct": false
 	},{
-		"text": "a dialektika",
+		"text": "A dialektika",
 		"correct": false
 	},{
-		"text": "a dogmetika",
+		"text": "A dogmetika",
 		"correct": true
 	},{
-		"text": "az asztronomia",
+		"text": "Az asztronomia",
 		"correct": false
 	}
 

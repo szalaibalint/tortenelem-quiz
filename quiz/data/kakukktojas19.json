@@ -3,13 +3,13 @@
 	"text":"Melyik a kakukktojás?",
 	"answers":[
 	{
-		"text": "a Mausszoleion",
+		"text": "A Mausszoleion",
 		"correct": false
 	},{
-		"text": "az alexandriai Phárosz világítótornya",
+		"text": "Az alexandriai Phárosz világítótornya",
 		"correct": false
 	},{
-		"text": "az epheszoszi Artemis-templom",
+		"text": "Az epheszoszi Artemis-templom",
 		"correct": false
 	},{
 		"text": "Antipartos epigrammaja",

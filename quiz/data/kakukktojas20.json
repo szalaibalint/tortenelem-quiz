@@ -3,16 +3,16 @@
 	"text":"Melyik a kakukktojás?",
 	"answers":[
 	{
-		"text": "a keresztről való levétel",
+		"text": "A keresztről való levétel",
 		"correct": false
 	},{
-		"text": "a mennybemenetel",
+		"text": "A mennybemenetel",
 		"correct": false
 	},{
-		"text": "az egyiptomi menekülés",
+		"text": "Az egyiptomi menekülés",
 		"correct": true
 	},{
-		"text": "a gyermek elmaradása a templomba",
+		"text": "A gyermek elmaradása a templomba",
 		"correct": false
 	}
 

@@ -3,16 +3,16 @@
 	"text":"Melyik a kakukktojás?",
 	"answers":[
 	{
-		"text": "a branderburgi őrgróf",
+		"text": "A branderburgi őrgróf",
 		"correct": false
 	},{
-		"text": "a cseh király",
+		"text": "A cseh király",
 		"correct": true
 	},{
-		"text": "a kölni érsek",
+		"text": "A kölni érsek",
 		"correct": false
 	},{
-		"text": "a trieri érsek",
+		"text": "A trieri érsek",
 		"correct": false
 	}
 
