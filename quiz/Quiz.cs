@@ -16,7 +16,7 @@ namespace quiz
         List<int> indexList = new List<int>();
 
         int currentIndex = 0;
-
+        int question = 1;
         int points;
         public Quiz()
         {
@@ -25,7 +25,7 @@ namespace quiz
 
         private void Quiz_Load(object sender, EventArgs e)
         {
-
+            questionCounter.Text = $"{question}/{mainForm.questionCount}";
             questionsTab.Appearance = TabAppearance.FlatButtons;
             questionsTab.ItemSize = new Size(0, 1);
             questionsTab.SizeMode = TabSizeMode.Fixed;
@@ -37,7 +37,7 @@ namespace quiz
                 TabPage tab = new TabPage();
                 if (q is SelectionQuestion)
                 {
-                    if((q as SelectionQuestion).Multiselect)
+                    if ((q as SelectionQuestion).Multiselect)
                     {
                         tab.Controls.Add(new MultiQuestionControl(q as SelectionQuestion));
                         questionsTab.TabPages.Add(tab);
@@ -97,12 +97,16 @@ namespace quiz
                     isCorrect = false;
                 }
 
+                
+
                 answersList.Items.Add($"{currentIndex + 1} - {(isCorrect ? "Helyes" : "Helytelen")}");
 
                 if (currentIndex < mainForm.questionCount - 1)
                 {
                     currentIndex++;
                     questionsTab.SelectedIndex = indexList[currentIndex];
+                    question++;
+                    questionCounter.Text = $"{question}/{mainForm.questionCount}";
                 }
                 else
                 {
@@ -127,6 +131,10 @@ namespace quiz
             this.Hide();
             form.ShowDialog();
             this.Close();
+        }
+
+        private void questionCounter_Click(object sender, EventArgs e)
+        {
         }
     }
 }

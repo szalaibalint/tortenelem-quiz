@@ -40,6 +40,7 @@
             panel5 = new Panel();
             endPoints = new Label();
             restart = new Button();
+            questionCounter = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -48,7 +49,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Tan;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            label1.Location = new Point(50, 24);
+            label1.Location = new Point(50, 39);
             label1.Name = "label1";
             label1.Size = new Size(99, 25);
             label1.TabIndex = 0;
@@ -81,6 +82,7 @@
             // panel1
             // 
             panel1.BackColor = Color.Tan;
+            panel1.Controls.Add(questionCounter);
             panel1.Controls.Add(answersList);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(button1);
@@ -96,7 +98,7 @@
             answersList.BorderStyle = BorderStyle.None;
             answersList.FormattingEnabled = true;
             answersList.ItemHeight = 15;
-            answersList.Location = new Point(61, 61);
+            answersList.Location = new Point(50, 77);
             answersList.Name = "answersList";
             answersList.SelectionMode = SelectionMode.None;
             answersList.Size = new Size(100, 240);
@@ -156,6 +158,16 @@
             restart.Visible = false;
             restart.Click += restart_Click;
             // 
+            // questionCounter
+            // 
+            questionCounter.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold);
+            questionCounter.Location = new Point(52, 19);
+            questionCounter.Name = "questionCounter";
+            questionCounter.Size = new Size(100, 23);
+            questionCounter.TabIndex = 4;
+            questionCounter.Text = "0/0";
+            questionCounter.Click += questionCounter_Click;
+            // 
             // Quiz
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -197,5 +209,6 @@
         private ListBox answersList;
         private Label endPoints;
         private Button restart;
+        private Label questionCounter;
     }
 }
