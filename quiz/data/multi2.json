@@ -1,6 +1,6 @@
 {
   "type": "multi",
-  "text": "Az alábbiakban egykor Magyarországon található városok nevét találod. Mondd meg az egyes városok mostani hivatalos nevét az országy nyelvén illetve hogy, jelenleg melyik ország területén fekszik! LOSONC",
+  "text": "Az alábbiakban egykor Magyarországon található városok nevét találod. Mondd meg az egyes városok mostani hivatalos nevét az ország nyelvén illetve hogy, jelenleg melyik ország területén fekszik! LOSONC",
   "answers": [
     {
       "text": "Turda",
@@ -11,12 +11,12 @@
       "correct": true
     },
     {
-      "text": "Szlovákia",
-      "correct": false
-    },
-    {
       "text": "Golubac",
       "correct": true
+    },
+    {
+      "text": "Szlovákia",
+      "correct": false
     }
   ]
 }

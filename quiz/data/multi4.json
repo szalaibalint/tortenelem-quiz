@@ -1,22 +1,22 @@
 {
   "type": "multi",
-  "text": "Az alábbiakban egykor Magyarországon található városok nevét találod. Mondd meg az egyes városok mostani hivatalos nevét az országy nyelvén illetve hogy, jelenleg melyik ország területén fekszik! LOSONC",
+  "text": "Az alábbiakban egykor Magyarországon található városok nevét találod. Mondd meg az egyes városok mostani hivatalos nevét az ország nyelvén illetve hogy, jelenleg melyik ország területén fekszik! LOSONC",
   "answers": [
     {
       "text": "Zvolen",
       "correct": true
     },
     {
-      "text": "Zojvek",
+      "text": "Szlovákia",
+      "correct": true
+    },
+    {
+      "text": "Zovjek",
       "correct": false
     },
     {
       "text": "Szerbia",
       "correct": false
-    },
-    {
-      "text": "Szlovákia",
-      "correct": true
     }
   ]
 }
